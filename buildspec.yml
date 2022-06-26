@@ -27,4 +27,11 @@ phases:
       - printf '[{"name":"mylab","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 artifacts:
     files: 
-      - **/*
+      - imagedefinitions.json
+      - codedeploy/**/*
+      - appspec.yml
+      - docker-compose.yml
+      - vote
+      - result
+      - worker
+      - .env
