@@ -31,7 +31,7 @@ artifacts:
       - codedeploy/**/*
       - appspec.yml
       - docker-compose.yml
-      - vote
-      - result
-      - worker
+      - vote/**/*
+      - result/**/*
+      - worker/**/*
       - .env
