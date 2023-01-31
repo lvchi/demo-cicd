@@ -43,6 +43,9 @@ ECR Policy:
 - Launch template
 - ASG
 
+
+
+
 #### 3.2: Codedeploy
 - IAM Role for CodeDeploy
 User Data:
